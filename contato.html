@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<header class="header">
+  <nav class="navbar">
+    <a href="index.html">Biografia</a>
+    <a href="integrantes.html">Integrantes</a>
+    <a href="ouvidas.html">Mais ouvidas</a>
+    <a href="contato.html">Contato</a>
+    <a href="premiacoes.html">Premiações</a>
+    <a href="noticias.html">Notícias</a>
+  </nav>
+</header>
+<div class="fundo"></div>
+
+
+
+
+<main class="main">
+  <form action="">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone" required>
+
+    <label for="hora_contato">Melhor horário para contato:</label>
+    <input type="text" id="hora_contato" name="hora_contato" required>
+
+    <label for="assunto">Assunto:</label>
+    <select id="assunto" name="assunto" required>
+      <option value="">Selecione um assunto</option>
+      <option value="duvidas">Dúvidas</option>
+      <option value="feedback">Feedback</option>
+      <option value="outros">Outros</option>
+    </select>
+
+    <label for="formacontato">Forma de Contato:</label>
+    <select id="formacontato" name="formacontato" required>
+      <option value="">Selecione uma forma de contato</option>
+      <option value="email">Email</option>
+      <option value="celular">Telefone</option>
+
+    </select>
+
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" name="sexo" required>
+      <option value="">Selecione o sexo</option>
+      <option value="feminino">Feminino</option>
+      <option value="masculino">Masculino</option>
+      <option value="masculino">Outros</option>
+
+    </select>
+    <label for="mensagem">Mensagem:</label>
+    <input type="text" id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui" required>
+    <button class="btn-msc">Enviar</button>
+
+  </form>
+</main>
+<footer>
+  <p>&copy; 2024 Banda Charlie Brown Jr. - Todos os direitos reservados.</p>
+</footer>
+</body>
+
+</html>
